@@ -7,7 +7,8 @@ Python Libraries needed:<br>
 
 ![PCB input](ampli-F_Cu.png)
     ![PCB Optimized](salidaorilla.png)
-    
+
+Now you can convert it to SVG then to GCODE in inkscape or svg_to_gcode
 
 
 Current measurement for ARDUINO using a low side resistance.

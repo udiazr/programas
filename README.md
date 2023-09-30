@@ -1,7 +1,7 @@
 # programas
 ## PCB to CNC optimizer: python3 islas.py [filename.png] [thickness]
-This program prepares a PCB image to make tracks thicker for CNC machining.
-Python Libraries needed:
+This program prepares a PCB image to make tracks thicker for CNC machining.<br>
+Python Libraries needed:<br>
 - PyopeCL (you may use POCL)
 - OpenCV
 

@@ -11,9 +11,16 @@ import pyopencl as cl
 
 
 filename=sys.argv[1]
-img=255-cv2.imread(filename,cv2.IMREAD_GRAYSCALE)
+img0=255-cv2.imread(filename,cv2.IMREAD_GRAYSCALE)
 
-h,w=img.shape
+
+h0,w0=img0.shape
+dh=30
+h=int(h0+dh*2)
+w=int(w0+dh*2)
+img=np.zeros((h,w),dtype=np.uint8)
+img[dh:h0+dh,dh:w0+dh]=img0
+
 print(h,w)
 
 ctx=cl.create_some_context()

@@ -5,6 +5,11 @@ This program prepares a PCB image to make tracks thicker for CNC machining.
 Python Libraries needed:<p>
 - PyopeCL (you may use POCL)
 - OpenCV
+    
+    
+</p>
+    
+</p>
 
 ![PCB input](ampli-F_Cu.png)
     ![PCB Optimized](salidaorilla.png)
